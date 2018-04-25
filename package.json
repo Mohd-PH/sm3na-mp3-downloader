@@ -8,11 +8,12 @@
     "test": "mocha"
   },
   "bin": {
-    "sm3na" : "./index.js"
+    "sm3na": "./index.js"
   },
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
-    "mocha": "^5.0.5"
+    "mocha": "^5.0.5",
+    "rimraf": "^2.6.2"
   }
 }
